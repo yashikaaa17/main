@@ -1,0 +1,48 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Coverage & test output
+coverage/
+.nyc_output/
+
+# Build artifacts
+dist/
+build/
